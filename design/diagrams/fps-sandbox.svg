@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="t d">
+<title id="t">FPS sandbox loop · M-05, M-06</title>
+<desc id="d">Move, lean, aim, fire, IK re-poses arms; mouse look unverified; objective does not exist. IDs: M-05, M-06, F-04, F-05, Q-08.</desc>
+<rect width="1400" height="640" fill="#faf9f5"/>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker>
+<marker id="p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker>
+</defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="40" y="50" font-size="28" font-weight="700">FPS sandbox loop · M-05, M-06</text>
+<text x="40" y="78" font-size="15" fill="#5b6b7c">Verbs without a goal: nothing to hit, nothing to win. Solid = in code; dashed = does not exist. Mouse look is in code but fails headless (Q-05).</text>
+<g font-size="13" fill="#5b6b7c"><line x1="1070" y1="612" x2="1110" y2="612" stroke="#25354a" stroke-width="2.5"/><text x="1118" y="616">observed in code</text><line x1="1230" y1="612" x2="1270" y2="612" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/><text x="1278" y="616">proposed / missing</text></g>
+<path d="M370 200 L470 200" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M770 200 L900 200" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M1020 240 L1020 340" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M890 380 L770 380" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M470 380 L370 380" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<path d="M220 340 L220 245" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="220" y="284" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">repeat · no end state</text>
+<path d="M620 425 L620 510" fill="none" stroke="#d24e42" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#p)"/>
+<text x="620" y="460" font-size="13" fill="#d24e42" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">hits nothing</text>
+<rect x="70" y="155" width="300" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="220" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">Mouse look</text>
+<text x="220" y="217" font-size="12.5" text-anchor="middle" fill="#5b6b7c">captured only · pitch −40°..60°</text>
+<text x="220" y="232" font-size="12.5" text-anchor="middle" fill="#5b6b7c">unverified (headless)</text>
+<rect x="470" y="155" width="300" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="620" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">Move · sprint · jump</text>
+<text x="620" y="217" font-size="12.5" text-anchor="middle" fill="#5b6b7c">WASD/arrows · Shift · Space</text>
+<text x="620" y="232" font-size="12.5" text-anchor="middle" fill="#5b6b7c">22 / 34 speed · jump 26</text>
+<rect x="900" y="160" width="240" height="80" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1020" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">Lean</text>
+<text x="1020" y="217" font-size="12.5" text-anchor="middle" fill="#5b6b7c">Q / E · ±20° roll</text>
+<rect x="890" y="340" width="260" height="80" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1020" y="377" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">Aim (right click)</text>
+<text x="1020" y="397" font-size="12.5" text-anchor="middle" fill="#5b6b7c">FOV 80 ↔ 60</text>
+<rect x="470" y="335" width="300" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="620" y="377" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">Fire (left click)</text>
+<text x="620" y="397" font-size="12.5" text-anchor="middle" fill="#5b6b7c">every 0.15 s · speed 100</text>
+<text x="620" y="412" font-size="12.5" text-anchor="middle" fill="#5b6b7c">despawn at 5 s</text>
+<rect x="70" y="340" width="300" height="80" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="220" y="377" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">IK re-poses arms</text>
+<text x="220" y="397" font-size="12.5" text-anchor="middle" fill="#5b6b7c">FABRIK hands · LookAt chest/head</text>
+<rect x="480" y="510" width="280" height="60" rx="12" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="620" y="537" font-size="18" font-weight="700" text-anchor="middle" fill="#d24e42">Target / objective</text>
+<text x="620" y="557" font-size="12.5" text-anchor="middle" fill="#5b6b7c">does not exist · Q-08</text>
+<text x="40" y="616" font-size="13" fill="#5b6b7c">Source: godot/fps/example_player.gd · simple_bullet.gd · fps_example.tscn:452-580 · fps-input-20260927.log</text>
+</g></svg>

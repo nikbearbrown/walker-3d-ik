@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Enter enters FPS
+FAIL FPS captures mouse mode
+FAIL mouse changes yaw
+FAIL upper pitch clamp60
+FAIL lower pitch clamp-40
+PASS Escape frees mouse mode
+PASS free cursor does not turn player
+PASS Enter returns to SkeletonIK
+RESULT 8 checks; 4 failures

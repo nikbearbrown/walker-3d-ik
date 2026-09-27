@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img" aria-labelledby="t d">
+<title id="t">Scene flow and solvers · M-07, S-01</title>
+<desc id="d">LookAt to FABRIK to SkeletonIK to FPS, with back links and per-scene solver lists. IDs: M-01, M-02, M-03, M-04, M-07, F-01, F-02, F-03, F-06.</desc>
+<rect width="1500" height="600" fill="#faf9f5"/>
+<defs>
+<marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker>
+<marker id="p" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker>
+</defs>
+<g font-family="Helvetica, Arial, sans-serif" fill="#25354a">
+<text x="40" y="50" font-size="28" font-weight="700">Scene flow and solvers · M-07, S-01</text>
+<text x="40" y="78" font-size="15" fill="#5b6b7c">Next / Previous buttons chain four scenes. All transitions verified headless. Dashed = proposed or unverified.</text>
+<g font-size="13" fill="#5b6b7c"><line x1="1170" y1="572" x2="1210" y2="572" stroke="#25354a" stroke-width="2.5"/><text x="1218" y="576">observed in code</text><line x1="1330" y1="572" x2="1370" y2="572" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/><text x="1378" y="576">proposed / missing</text></g>
+<path d="M345 230 L415 230" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="380" y="222" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Next</text>
+<path d="M705 230 L775 230" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="740" y="222" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Next</text>
+<path d="M1065 230 L1135 230" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="1100" y="222" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Next</text>
+<path d="M1190 185 Q1100 140 1010 185" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="1100" y="154" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Previous</text>
+<path d="M830 185 Q740 140 650 185" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="740" y="154" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Previous</text>
+<path d="M470 185 Q380 140 290 185" fill="none" stroke="#25354a" stroke-width="2" marker-end="url(#a)"/>
+<text x="380" y="154" font-size="13" fill="#5b6b7c" text-anchor="middle" stroke="#faf9f5" stroke-width="4" paint-order="stroke">Previous</text>
+<path d="M1280 275 L1280 405" fill="none" stroke="#d24e42" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#p)"/>
+<path d="M710 405 L599 275" fill="none" stroke="#d24e42" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#p)"/>
+<path d="M770 405 L881 275" fill="none" stroke="#d24e42" stroke-width="2" stroke-dasharray="8 6" marker-end="url(#p)"/>
+<rect x="55" y="185" width="290" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="200" y="227" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">1 LookAt (main)</text>
+<text x="200" y="247" font-size="12.5" text-anchor="middle" fill="#5b6b7c">Head + L/R UpperArm look at</text>
+<text x="200" y="262" font-size="12.5" text-anchor="middle" fill="#5b6b7c">mouse targets · 7/7</text>
+<rect x="415" y="185" width="290" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="560" y="227" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">2 FABRIK</text>
+<text x="560" y="247" font-size="12.5" text-anchor="middle" fill="#5b6b7c">2 arm chains + hand LookAt</text>
+<text x="560" y="262" font-size="12.5" text-anchor="middle" fill="#5b6b7c">(Walker fix: physics mode)</text>
+<rect x="775" y="185" width="290" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="920" y="227" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">3 SkeletonIK3D</text>
+<text x="920" y="247" font-size="12.5" text-anchor="middle" fill="#5b6b7c">built-in solver, 2 arms</text>
+<text x="920" y="262" font-size="12.5" text-anchor="middle" fill="#5b6b7c">magnets ±8,6,0</text>
+<rect x="1135" y="185" width="290" height="90" rx="12" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1280" y="227" font-size="18" font-weight="700" text-anchor="middle" fill="#25354a">4 FPS example</text>
+<text x="1280" y="247" font-size="12.5" text-anchor="middle" fill="#5b6b7c">FABRIK arms + LookAt chest</text>
+<text x="1280" y="262" font-size="12.5" text-anchor="middle" fill="#5b6b7c">move · lean · aim · fire</text>
+<rect x="1130" y="405" width="300" height="70" rx="12" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="1280" y="437" font-size="18" font-weight="700" text-anchor="middle" fill="#d24e42">Display check: mouse-look</text>
+<text x="1280" y="457" font-size="12.5" text-anchor="middle" fill="#5b6b7c">proposed · headless cannot capture · Q-05</text>
+<rect x="590" y="405" width="300" height="70" rx="12" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="740" y="437" font-size="18" font-weight="700" text-anchor="middle" fill="#d24e42">Side-by-side capture</text>
+<text x="740" y="457" font-size="12.5" text-anchor="middle" fill="#5b6b7c">FABRIK vs SkeletonIK · T-09</text>
+<text x="40" y="576" font-size="13" fill="#5b6b7c">Source: godot/*.tscn scene_to_change_to · navigation-final-20260927.log · fps-navigation-20260927.log</text>
+</g></svg>

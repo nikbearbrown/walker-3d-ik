@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS GUI transition res://fabrik_ik.tscn
+DIAG FABRIK_IK target (-5.844536, 3.287551, -4.362729) -> (4.137471, 2.174437, -6.492546)
+PASS FABRIK_IK Left_UpperArm finite
+PASS FABRIK_IK Left_UpperArm responds
+PASS FABRIK_IK Right_UpperArm finite
+PASS FABRIK_IK Right_UpperArm responds
+PASS GUI transition res://skeleton_ik.tscn
+DIAG SkeletonIK3D target (-4.274547, -1.177049, -6.659039) -> (4.137471, 2.174437, -6.492546)
+DIAG solvers running: true / true
+PASS SkeletonIK3D Left_UpperArm finite
+FAIL SkeletonIK3D Left_UpperArm responds
+PASS SkeletonIK3D Right_UpperArm finite
+FAIL SkeletonIK3D Right_UpperArm responds
+PASS GUI transition res://fabrik_ik.tscn
+PASS GUI transition res://look_at_ik.tscn
+RESULT 12 checks; 2 failures

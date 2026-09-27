@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS res://addons/sade/ik_fabrik.gd mode 0
+FAIL res://addons/sade/ik_fabrik.gd mode 1
+PASS res://addons/sade/ik_fabrik.gd mode 2
+PASS res://addons/sade/ik_fabrik.gd mode 3
+PASS res://addons/sade/ik_look_at.gd mode 0
+PASS res://addons/sade/ik_look_at.gd mode 1
+PASS res://addons/sade/ik_look_at.gd mode 2
+PASS res://addons/sade/ik_look_at.gd mode 3
+RESULT 8 checks; 1 failures
